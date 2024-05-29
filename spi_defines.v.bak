@@ -1,0 +1,17 @@
+`define SPI_DIVIDER_LEN_8
+//`define SPI_DIVIDER_LEN_16
+//`define SPI_DIVIDER_LEN_24
+//`define SPI_DIVIDER_LEN_32
+
+`ifdef SPI_DIVIDER_LEN_8
+	`define SPI_DIVIDER_LEN  8 //can be set from 1 to 8
+`endif
+`ifdef SPI_DIVIDER_LEN_16
+	`define SPI_DIVIDER_LEN  16
+`endif
+`ifdef SPI_DIVIDER_LEN_24
+	`define SPI_DIVIDER_LEN  24
+`endif
+`ifdef SPI_DIVIDER_LEN_32
+	`define SPI_DIVIDER_LEN  32
+`endif
